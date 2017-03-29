@@ -1,0 +1,19 @@
+{
+  "name": "workingdraftbeer",
+  "version": "1.0.0",
+  "description": "Website for Working Draft Beer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbrowne/workingdraftbeer.git"
+  },
+  "author": "Jeff Browne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbrowne/workingdraftbeer/issues"
+  },
+  "homepage": "https://github.com/jbrowne/workingdraftbeer#readme"
+}
