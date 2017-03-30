@@ -39,7 +39,7 @@ margin:0;
 padding:0;
 color: #fff;
 position: relative;
-font-family: 'Merriweather', serif;
+font-family: 'Nobile', serif;
 text-align: center;
 }
 
@@ -57,9 +57,11 @@ text-align: center;
 	width: 100%;
 	float: left;
 	position: relative;
-	background: url(../images/background.jpg) center top no-repeat;
-	background-size: cover;
-	min-height: 499px;
+	background: url(../images/background.png) center top no-repeat;
+	background-size: contain;
+	min-height: 400px;
+	margin: 1em 0em;
+
 }
 
 .header{
@@ -70,7 +72,7 @@ text-align: center;
 }
 
 h1{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Nobile', sans-serif;
 	font-size: 60px;
 	color: #fff;
 }
@@ -114,7 +116,7 @@ width: 100%;
 
 .field input{
 	width: 58%;
-	font-family: 'Merriweather', serif;	
+	font-family: 'Nobile', serif;	
 	float: left;
 	background: none;
 	border: none;
@@ -129,9 +131,9 @@ width: 100%;
 	width: 34%;
 	float: left;
 	background: #d4d0ce;
-	color: #433022;
+	color: #142457;
 	border: none;
-	font-family: 'Merriweather', serif;
+	font-family: 'Nobile', serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;	
 	padding: 10px 0;
@@ -155,21 +157,21 @@ width: 100%;
 }
 
 h2{
-	font-size: 12px;
-	color: #433022;
+	font-size: 16px;
+	color: #142457;
 	letter-spacing: 2px;
 	margin-bottom: 10px;
 }
 
 .email{
-	width: 32%;
+	width: 33%;
 	float: left;
 	border-right: 1px solid #d3d1cf;
 	
 }
 
 .email a{
-	color: #433022;
+	color: #142457;
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -181,7 +183,7 @@ email a:hover{
 }
 
 .social{
-	width: 32%;
+	width: 33%;
 	float: left;
 	border-right: 1px solid #d3d1cf;
 }
@@ -189,7 +191,7 @@ email a:hover{
 
 .social a{
 	margin: 0 15px;
-	color: #433022;
+	color: #142457;
 	text-decoration: none;
 }
 
@@ -198,12 +200,12 @@ email a:hover{
 }
 
 .call{
-	width: 34%;
+	width: 33%;
 	float: left;
 }
 
 .call p{
-	color: #433022;
+	color: #142457;
 	font-weight: 700;
 	font-size: 14px;
 }
@@ -237,7 +239,7 @@ email a:hover{
 
 .social a{
 	margin: 0 10px;
-	color: #433022;
+	color: #142457;
 	text-decoration: none;
 }
 
@@ -254,9 +256,10 @@ email a:hover{
 	width: 100%;
 	float: left;
 	position: relative;
-	background: url(../images/background.jpg) center top no-repeat;
-	background-size: cover;
-	min-height: 360px;
+	background: url(../images/background.png) center top no-repeat;
+	background-size: contain;
+	min-height: 255px;
+	min-width: 300px;
 }
 
 	
@@ -268,7 +271,7 @@ email a:hover{
 }
 
 h1{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Nobile', sans-serif;
 	font-size: 50px;
 	color: #fff;
 }
@@ -313,7 +316,7 @@ width: 100%;
 border-radius: 5px;	
 	text-align: center;
 	width: 100%;
-	font-family: 'Merriweather', serif;	
+	font-family: 'Nobile', serif;	
 	float: left;
 	background: none;
 	font-size: 10px;
@@ -327,9 +330,9 @@ border-radius: 5px;
 	width: 100%;
 	float: left;
 	background: #d4d0ce;
-	color: #433022;
+	color: #142457;
 	border: none;
-	font-family: 'Merriweather', serif;
+	font-family: 'Nobile', serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;	
 	padding: 10px 0;
@@ -340,13 +343,6 @@ border-radius: 5px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;		
 }
-
-
-
-h2{
-	display: none;
-}
-
 
 
 .email, .social, .call{
